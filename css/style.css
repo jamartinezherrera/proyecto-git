@@ -1,0 +1,75 @@
+body{
+    background-color: teal;
+    background-image: url(../img/descarga.jpg );
+    background-repeat: no-repeat; 
+    background-size: 1600px;
+}
+
+/*color y ajuste de letra*/
+h1{color: rgb(237, 243, 243); font-size: 65px;text-align: center;}
+h3{color: snow; border: 3px solid blanchedalmond; text-align: initial; font-size: 40px;
+    width: 180px;
+}
+p{text-align: justify;}
+h5{color: lime;border-radius: initial; font-size: 20px;}
+/* estilos de prueba*/
+p{
+    color: whitesmoke;
+    font-size: 25px;
+    border: 2px solid gray;
+}
+#parrafo{border:0px}
+li{color: thistle; font-size: 21px;}
+.menu {
+    color: yellow;
+    text-align: justify;
+}
+
+.menu:hover{
+    color: rgb(194, 65, 151);
+}
+/* modificar viñeta*/
+ul{
+    list-style-type: inherit;
+}
+iframe{
+    width: 620px;
+    height: 315px;
+    margin: auto;
+    display: block;
+    float: left;
+
+}
+video{
+    width: 620px;
+    height: 315px;
+    margin: auto;
+    display: block;
+
+}
+table{
+    width: 50%;
+    margin: auto;
+    display: left;
+}
+td{
+    color: cornsilk;
+}
+th{
+    color: darkkhaki;
+}
+table,
+td,
+th{
+    border: 2px solid black;
+    font-size: 25px;
+    border-collapse: collapse;
+    border-style: inset;
+    background-color: cadetblue;
+}
+img{
+    width: 50%;
+}
+input{
+    width: 20%;
+}
